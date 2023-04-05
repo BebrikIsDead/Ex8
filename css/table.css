@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap');
+body{
+	background-color: mintcream;
+}
+p{
+	font-size: 50px;
+	border: solid 30px;
+	width: 30%;
+	text-align: center;
+	border-image: linear-gradient(283deg, rgba(34,167,195,1) 0%, rgba(43,22,149,1) 64%, rgba(9,56,98,1) 100%) 30;
+	color: darkblue;
+}
+table{
+	border: solid 4px darkcyan;
+	width: 35%;
+	height: 700px;
+}
+th,td{
+	border: solid 1px black;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 650;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://media.tenor.com/sVNO62-MYV0AAAAC/zxc-cat.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 700;
+	color: maroon;
+}
+tr:nth-child(odd){
+	background-color: dimgrey;
+}
+tr:nth-child(even){
+	background-color: darkred;
+}
+caption{
+	font-size: 40px;
+	color: maroon;
+	font-weight: 700;
+    font-family: 'Cormorant Unicase', serif;
+}

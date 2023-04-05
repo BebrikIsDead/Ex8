@@ -1,0 +1,31 @@
+body{
+	background-image: url(../gifs/FrogSpin.gif);
+	background-size: 150px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+}
+p{
+	font-size: 2.2cm;
+	color: darkblue;
+	background-image: url(https://pbs.twimg.com/media/E0lLA5uWYAYy4gk.jpg);
+	background-size: contain;
+}
+.DaMe{
+	background-image: url(../gifs/AlienGathering.gif), url("../images/Yakuza-Like-A-Dragon-Bar.jpg?x25640");
+	background-size: auto;
+	background-repeat: no-repeat;
+	height: 700px;
+	border-radius: 6%;
+	background-position: 39% 76%;
+	border: ridge 15px burlywood;
+	box-shadow: 0px 0px 150px royalblue;
+}
+.brImage{
+	width: 84%;
+	height: 3800px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 250px darkviolet;
+	border-radius: 5%;
+	border: groove 25px rosybrown;
+}
